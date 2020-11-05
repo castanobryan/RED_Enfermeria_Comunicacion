@@ -26,7 +26,50 @@ public class BarController : MonoBehaviour {
 
 	}
 
+	//Resetea a default las preguntas del caso
+	private void ResetEverything()
+	{
+		Pregunta1.SetActive (true);
+		Pregunta2.SetActive (false);
+		Pregunta3.SetActive (false);
+		Pregunta4.SetActive (false);
+		Pregunta5.SetActive (false);
+		Resultados.SetActive (false);
+		P1A.SetActive (false);
+		P1B.SetActive (false);
+		P1C.SetActive (false);
+		P2A.SetActive (false);
+		P2B.SetActive (false);
+		P2C.SetActive (false);
+		P3A.SetActive (false);
+		P3B.SetActive (false);
+		P3C.SetActive (false);
+		P4A.SetActive (false);
+		P4B.SetActive (false);
+		P4C.SetActive (false);
+		P5A.SetActive (false);
+		P5B.SetActive (false);
+		P5C.SetActive (false);
+	}
 
+	//Boton que controla la vuelta al Menu
+	public void BackMenu()
+	{
+		ButtonNext_1.SetActive (false);
+		ButtonPrev_2.SetActive (false);
+		MenuPanel.SetActive (true);
+		Introduccion.SetActive (false);
+		Preguntas.SetActive (false);
+		Caso.SetActive (false);
+		Actividad.SetActive (false);
+		PanelCaso.SetActive (false);
+		PanelPrecaso.SetActive (true);
+		PanelCasoFondo.SetActive (false);
+		PanelPreguntas.SetActive (false);
+		ResetEverything ();
+	}
+
+	//Funciones que controlan los botones del Menu
 	public void ClickIntroduccion()
 	{
 		ClickCounter = 1;
@@ -50,7 +93,6 @@ public class BarController : MonoBehaviour {
 		PanelPostClick.SetActive (false);
 		ButtonPrev.interactable = true;
 		ButtonNext.interactable = true;
-
 	}
 
 	public void ClickNarrativa()
@@ -63,7 +105,6 @@ public class BarController : MonoBehaviour {
 		ButtonPrev_2.SetActive (true);
 		MenuPanel.SetActive (false);
 		Caso.SetActive (true);
-
 	}
 
 	public void ClickActividad()
@@ -77,7 +118,6 @@ public class BarController : MonoBehaviour {
 		MenuPanel.SetActive (false);
 		Actividad.SetActive (true);
 		Minigames.SetActive (true);
-
 	}
 
 
@@ -184,56 +224,12 @@ public class BarController : MonoBehaviour {
 
 	//Funcion para descargar el PDF
 	public void Download(){
-		Application.OpenURL ("https://drive.google.com/uc?id=1jE4Xq5vdWaXXAPY278Hm_5guxlRwBmhd&export=download&authuser=0");
+		Application.OpenURL ("https://mailunicundiedu-my.sharepoint.com/:b:/g/personal/ahernandezb_ucundinamarca_edu_co/EeErnTdJvv9DragrQehDseEBwGiDKmjG1I7TxgFHyujGpw?e=zJ0OMz");
 	}
 
 	//Funciona para descargar el PDF de la Narrativa
 	public void DownloadNarrativa(){
-		Application.OpenURL ("https://drive.google.com/uc?id=1BnlXEbiKML1bQ5ETDxu2PxakaIp4kGJh&export=download&authuser=0");
-	}
-
-	//Boton que controla la vuelta al Menu
-	public void BackMenu()
-	{
-		ButtonNext_1.SetActive (false);
-		ButtonPrev_2.SetActive (false);
-		MenuPanel.SetActive (true);
-		Introduccion.SetActive (false);
-		Preguntas.SetActive (false);
-		Caso.SetActive (false);
-		Actividad.SetActive (false);
-		PanelCaso.SetActive (false);
-		PanelPrecaso.SetActive (true);
-		PanelCasoFondo.SetActive (false);
-		PanelPreguntas.SetActive (false);
-		ResetEverything ();
-
-	}
-
-	//Resetea a default las preguntas del caso
-	private void ResetEverything()
-	{
-		Pregunta1.SetActive (true);
-		Pregunta2.SetActive (false);
-		Pregunta3.SetActive (false);
-		Pregunta4.SetActive (false);
-		Pregunta5.SetActive (false);
-		Resultados.SetActive (false);
-		P1A.SetActive (false);
-		P1B.SetActive (false);
-		P1C.SetActive (false);
-		P2A.SetActive (false);
-		P2B.SetActive (false);
-		P2C.SetActive (false);
-		P3A.SetActive (false);
-		P3B.SetActive (false);
-		P3C.SetActive (false);
-		P4A.SetActive (false);
-		P4B.SetActive (false);
-		P4C.SetActive (false);
-		P5A.SetActive (false);
-		P5B.SetActive (false);
-		P5C.SetActive (false);
+		Application.OpenURL ("https://mailunicundiedu-my.sharepoint.com/:b:/g/personal/ahernandezb_ucundinamarca_edu_co/ESJNbyXWi5NJgZLMMSejQF8BXPYDN_fo3sUMHxwFTuR9GQ?e=IRi6bu");
 	}
 
 }

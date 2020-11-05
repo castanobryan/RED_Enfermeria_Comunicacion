@@ -17,6 +17,33 @@ public class QuestionSorter : MonoBehaviour {
 	public Animator anim1, anim2, anim3, animSlider, animTitle;
 	public Button ButtonNext, ButtonPrev, LastMostrar;
 
+	//Ejecuta Animacion y muestra boton de pregunta 1
+	IEnumerator WaitAnimationGlass1() 
+	{
+		anim1.Play ("VasoBigAnimation");
+		Mostrar1.SetActive (false);
+		yield return new WaitForSeconds (2);
+		Mostrar1.SetActive (true);
+	}
+
+	//Ejecuta Animacion y muestra boton de pregunta 2
+	IEnumerator WaitAnimationGlass2() 
+	{
+		anim2.Play ("VasoBigAnimation");
+		Mostrar2.SetActive (false);
+		yield return new WaitForSeconds (2);
+		Mostrar2.SetActive (true);
+	}
+
+	//Ejecuta Animacion y muestra boton de pregunta 3
+	IEnumerator WaitAnimationGlass3() 
+	{
+		anim3.Play ("VasoBigAnimation");
+		Mostrar3.SetActive (false);
+		yield return new WaitForSeconds (2);
+		Mostrar3.SetActive (true);
+	}
+
 	//Realiza la seleccion de la 1ra pregunta de forma aleatoria y realiza una animacion
 	public void SorterGlassOne ()
 	{
@@ -110,32 +137,5 @@ public class QuestionSorter : MonoBehaviour {
 		TextoPanel1.SetActive (false);
 		TextoPanel2.SetActive (false);
 		TextoPanel3.SetActive (false);
-	}
-
-	//Ejecuta Animacion y muestra boton de pregunta 1
-	IEnumerator WaitAnimationGlass1() 
-	{
-		anim1.Play ("VasoBigAnimation");
-		Mostrar1.SetActive (false);
-		yield return new WaitForSeconds (2);
-		Mostrar1.SetActive (true);
-	}
-
-	//Ejecuta Animacion y muestra boton de pregunta 2
-	IEnumerator WaitAnimationGlass2() 
-	{
-		anim2.Play ("VasoBigAnimation");
-		Mostrar2.SetActive (false);
-		yield return new WaitForSeconds (2);
-		Mostrar2.SetActive (true);
-	}
-
-	//Ejecuta Animacion y muestra boton de pregunta 3
-	IEnumerator WaitAnimationGlass3() 
-	{
-		anim3.Play ("VasoBigAnimation");
-		Mostrar3.SetActive (false);
-		yield return new WaitForSeconds (2);
-		Mostrar3.SetActive (true);
 	}
 }

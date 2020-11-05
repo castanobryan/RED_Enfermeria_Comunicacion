@@ -1016,7 +1016,6 @@ public class CheckForAnswer : MonoBehaviour {
         LetterNine.transform.localScale = iniScaleLetterNine;
         LetterTen.transform.localScale = iniScaleLetterTen;
         LetterEleven.transform.localScale = iniScaleLetterEleven;
-        
     }
 
 	//Resetea las actividades para regresar al Menu

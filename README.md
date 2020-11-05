@@ -14,16 +14,14 @@ Recurso Educativo Digital [PC/Android] desarrollado para el Autoaprendizaje de b
     - Instalador: [Descarga](https://github.com/castanobryan/RED_Enfermeria_Comunicacion/releases/download/v1.01/PC_32bits_Instalador_Interaccion_y_Comunicacion.exe).
     - Portable: [Descarga](https://github.com/castanobryan/RED_Enfermeria_Comunicacion/releases/download/v1.01/PC_32bits_Portable_Interaccion_y_Comunicacion.rar).
 - Windows (64Bits):
-    - Instalador Windows 64Bits: [Descarga](https://github.com/castanobryan/RED_Enfermeria_Comunicacion/releases/download/v1.01/PC_64bits_Instalador_Interaccion_y_Comunicacion.exe).
-    - Portable Windows 64Bits: [Descarga](https://github.com/castanobryan/RED_Enfermeria_Comunicacion/releases/download/v1.01/PC_64bits_Portable_Interaccion_y_Comunicacion.rar).
+    - Instalador: [Descarga](https://github.com/castanobryan/RED_Enfermeria_Comunicacion/releases/download/v1.01/PC_64bits_Instalador_Interaccion_y_Comunicacion.exe).
+    - Portable: [Descarga](https://github.com/castanobryan/RED_Enfermeria_Comunicacion/releases/download/v1.01/PC_64bits_Portable_Interaccion_y_Comunicacion.rar).
 
 ## Instalación:
 - Localizar la descarga.
-- Ejecutar el Instalador como Adminsitrador (Recomendado).
+- Ejecutar el Instalador como Administrador (Recomendado).
 - Instalar dando Siguiente.
 - Listo.
 
-## Licencia:
-Creative Commons: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 ## Licencia:
 Creative Commons: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
